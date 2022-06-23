@@ -43,7 +43,9 @@ export class AppComponent {
     for(let i = 0; i < this.numberOfTeams; i++) {
       const randomIndex = Math.floor(Math.random() * allMembers.length )
       const member = allMembers.splice(randomIndex, 1) [0];
+      
       if(!member)break;
+      
       if(this.teams[i]) {
         this.teams[i].push(member)
       } else {
@@ -52,7 +54,8 @@ export class AppComponent {
     }
    }
 
-    console.log(this.teams);
+    this.members = [];
+    this.numberOfTeams = '';
 
   }
 
