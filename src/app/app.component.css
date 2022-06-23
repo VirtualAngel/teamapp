@@ -1,3 +1,11 @@
+
+li {
+    list-style: none;
+    font-size: 1.25rem;
+    color: black;
+    margin-bottom: .5rem;
+}
+
 .container {
     padding: 4rem;
     width: 40rem;
@@ -20,21 +28,18 @@
     border: none;
     border-bottom: 0.1rem solid rgba(128, 128, 128, 0.418);
     margin-right: 0.5rem;
-    padding: 1em;
     width: 100%;
     display: flex;
-    border-radius: 5em;
   }
   
   .add-members-container button {
     width: 100%;
     border: none;
-    color: black;
+    color: white;
     font-weight: 400;
     cursor: pointer;
-    background-color: rgb(115, 157, 224);
+    background-color: rgb(0, 53, 139);
     margin-top: 0.5rem;
-    border-radius: 5em;
   }
   
   .input-container {
@@ -42,18 +47,12 @@
     display: flex;
     height: 2rem;
   }
-
-  .input-container-teams {
-    padding: 1em;
-    border-radius: 5em;
-  }
   
   .input-container button {
     width: 50%;
-    background-color:indigo ;
+    background-color: darkcyan;
     border: none;
     color: white;
-    border-radius: 5em;
   }
   
   .input-container input {
