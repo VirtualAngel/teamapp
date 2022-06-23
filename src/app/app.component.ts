@@ -19,7 +19,9 @@ export class AppComponent {
       return;
     }
 
+    this.errorMessage = '';
     this.members.push(this.newMemberName);
+    this.newMemberName = '';
   }
 
 }
