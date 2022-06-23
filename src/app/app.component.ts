@@ -9,10 +9,16 @@ export class AppComponent {
   newMemberName = '';
   members: string[] = [];
   errorMessage ='';
+  numberOfTeams: number | '' = '';
 
   onInput(member: string) {
     this.newMemberName = member;
   }
+
+  onNumberOfTeamsInput(value: string) {
+    this.numberOfTeams = Number(value);
+  }
+
   addMember() {
     if(!this.newMemberName) {
       this.errorMessage = "WARNING: Name can't be empty";
