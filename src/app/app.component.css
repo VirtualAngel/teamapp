@@ -1,11 +1,4 @@
 
-li {
-    list-style: none;
-    font-size: 1.25rem;
-    color: black;
-    margin-bottom: .5rem;
-}
-
 .container {
     padding: 4rem;
     width: 40rem;
