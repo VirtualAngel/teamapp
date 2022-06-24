@@ -3,16 +3,10 @@
 
 body {
     background-color: midnightblue;
-    color: whitesmoke;
-}
-
-h1 {
-    color: black;
 }
 
 li {
     list-style: none;
     font-size: 1.25rem;
-    color: black;
     margin-bottom: .5rem;
 }

@@ -28,7 +28,7 @@
   .add-members-container button {
     width: 100%;
     border: none;
-    color: white;
+    color: whitesmoke;
     font-weight: 400;
     cursor: pointer;
     background-color: rgb(0, 53, 139);
@@ -45,7 +45,7 @@
     width: 50%;
     background-color: darkcyan;
     border: none;
-    color: white;
+    color: whitesmoke;
   }
   
   .input-container input {
