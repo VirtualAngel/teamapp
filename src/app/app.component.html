@@ -12,7 +12,10 @@
       placeholder="Name"
       (input)="onInput(addMemberInput.value)"
       [value]="newMemberName"
+      [(ngModel)]="value" type="text"
       >
+      <p>{{ value }}</p>
+
       <button (click)="addMember()">Add</button>
     </div>
 
