@@ -24,6 +24,12 @@
     width: 100%;
     display: flex;
   }
+
+  .mirrored-text {
+    margin-left: .2rem;
+    color: #3e1976;
+    font-size: 1.3rem;
+  }
   
   .add-members-container button {
     width: 100%;
